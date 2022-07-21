@@ -1,0 +1,302 @@
+/* reset default margin and padding */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* html targets entire page */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+    /* utility classes */
+    #container{
+        margin: auto;
+        max-width: 1900px;
+        overflow: hidden;
+    }
+    .text-primary{
+        color:#f7c08a;
+
+    }
+    .lead{
+        font-size: 20px;
+    }
+
+    h1,h2,h3{
+        padding-bottom: 20px;
+    }
+    .btn{
+        display: inline-block;
+        font-size: 18px;
+        color: #fff;
+        background-color: #333;
+        padding: 13px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: #f7c08a;
+        color: #333;
+    }
+    .bg-light{
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    .bg-orange{
+        background-color: #f7c08a;
+        color: #333;
+    }
+
+a{
+    text-decoration: none;
+}
+#navbar{
+
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+#navbar a{
+    color: #fff;
+    margin-right: 20px;
+
+}
+#navbar h1{
+    float: left;
+    
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+    padding-bottom: 10px;
+
+}
+
+/* display block allows you to align inline elements by changing them to block elements */
+#navbar ul li a{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: #f7c08a;
+    background-color: #444;
+}
+#navbar ul li a:hover{
+
+    background-color: black;
+}
+
+/* showcase */
+#showcase{
+    background-image: url(/images/img5.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#showcase .showcase-content{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    font-weight: 1.2em;
+}
+#showcase .showcase-content h1 span{
+    color: white;
+}
+#showcase .showcase-content p{
+    line-height: 1.5em;
+}
+/* home info */
+
+#home-info{
+    height: 500px;
+
+}
+#home-info .info-img {
+
+    float: left;
+    width: 50%;
+    background-image: url(/images/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    background-color: black;
+    color: #fff;
+}
+#home-info .info-content.btn{
+    background-color: #f4f4f4;
+    color: #333 ;
+
+}
+#home-info .info-content.btn:hover{
+    background-color: #f7c08a;
+}
+
+/* features */
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding:50px ;
+    text-align: center;
+    height: 300px;
+}
+.box i{
+    margin-bottom: 20px;
+}
+#main-footer{
+    padding: 20px;
+    color: #fff;
+    background-color: #444;
+    text-align: center;
+}
+/* About info */
+#about-info{
+    padding: 20px 0px;
+}
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+
+}
+#about-info .info-left h1{
+    font-size: 40px;
+}
+
+#about-info .info-right img{
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+/* testimonials */
+#testimonials{
+    margin-top:350px ;
+    height: 600px;
+    background-image: url(/images/img6.jpg);
+    padding-top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#testimonials h2{
+    color: #fff;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+#testimonials .testimonial{
+    padding: 45px;
+    margin-bottom:40px ;
+    border-radius: 5px;
+}
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* contact info */
+/* #contact-us{
+    padding-top: 40px;
+    text-decoration: none;
+}
+.contact-info h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.contact-info p{
+    padding-bottom: 20px;
+
+}
+#name, #email, #message{
+  
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.input input{
+    height: 40px;
+    border: solid grey;
+    
+}
+.input #btn{
+
+    font-size: 18px;
+    padding: 15px;
+    padding-bottom: 30px;
+    background-color:#333;
+    color: white;
+}
+#bottom{
+    
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: white;
+    background-color:#333;
+}
+#loc, #tel{
+    float: left;
+    width: 33.3%;
+} */
+
+/* contact */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form .form-group label{
+    display: block;
+}
+#contact-form form{padding: 5px;}
+
+#contact-form .form-group input, #contact-form .form-group textarea{
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+#contact-form .form-group textarea{
+    height: 200px;
+    
+}
+#contact-form .form-group input:focus, #contact-form .form-group textarea:focus{
+    border-color: #f7c08a;
+}
+.bx{
+    height: 400px;
+
+}
+#contact-bottom{
+    background-color: black;
+    color: #fff;
+    margin-top: 20px;
+}
